@@ -1,0 +1,139 @@
+﻿@font-face {
+    font-family: "ALSHaussBold";
+    src: url("../fonts/ALSHaussBold.eot");
+    src: 
+        url("../fonts/ALSHaussBold.eot?#iefix")format("embedded-opentype"), 
+        url("../fonts/ALSHaussBold.woff") format("woff"), 
+        url("../fonts/ALSHaussBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: "ALSHaussRegular";
+    src: url("../fonts/ALSHaussRegular.eot");
+    src: 
+        url("../fonts/ALSHaussRegular.eot?#iefix")format("embedded-opentype"), 
+        url("../fonts/ALSHaussRegular.woff") format("woff"), 
+        url("../fonts/ALSHaussRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+h1{
+    font-family: ALSHaussBold;
+    font-size: 24px;
+}
+
+body {
+    font-family: ALSHaussRegular;
+}
+
+.contener{
+    margin: 0 20px;
+}
+
+.logo_contener{
+    display: flex;
+    margin-top: 8px;
+    justify-content: space-between;
+}
+
+.logo_contener img {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    max-width: 50px;
+    margin-top: 8px;
+}
+
+.dots {
+    margin-bottom: 8px;
+    width: 162px;
+    background-image: url("../img/bg_mobile.png");
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.nav a{
+    color: #000000;
+}
+
+.nav_item {
+    background-color: #F9BF14;
+    min-width: 163px;
+    min-height: 80px;
+    margin: 3.5px 4.5px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    text-align: center;
+}
+
+.active_nav_item {
+    background-color: #E31E26;
+    color: white;
+}
+
+.title_page{
+    margin: 14px 2px;
+}
+
+.content_item a:link {    /* unvisited links       */
+    color: #000000
+}
+
+.content_item a:visited { /* visited links         */
+    color: #000000
+}
+
+
+.image_item{
+    height: 130px;
+    overflow: hidden;
+}
+
+/*.image_item img {
+    margin: -45px 0px;
+}*/
+
+.margin_horizontal_img{
+    margin: -45px 0px;
+}
+
+.margin_vertical_img{
+    margin: -95px 0px;
+}
+
+.margin_vertical_h2_img {
+    margin: -180px 0px;
+}
+
+.description_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.pin_icon_item{
+    height: 30px;
+    width: 30px;
+}
+
+.text_description{
+    font-size: 20px;
+}
+
+.content_list {
+    margin-bottom:100px;
+}
