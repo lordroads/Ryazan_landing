@@ -1,4 +1,4 @@
-﻿/* Reset and base styles  */
+﻿Reset and base styles  */
 * {
     padding: 0px;
     margin: 0px;
@@ -11,7 +11,7 @@
         box-sizing: border-box;
     }
 
-/* Links */
+Links
 
 a, a:link, a:visited {
     text-decoration: none;
@@ -21,7 +21,7 @@ a, a:link, a:visited {
         text-decoration: none;
     }
 
-/* Common */
+Common
 
 aside, nav, footer, header, section, main {
     display: block;
@@ -38,18 +38,18 @@ ul, ul li {
 
 img {
     vertical-align: top;
-}
+} 
 
-img, svg {
+ img, svg {
     max-width: 100%;
     height: auto;
-}
+} 
 
 address {
     font-style: normal;
 }
 
-/* Form */
+Form 
 
 input, textarea, button, select {
     font-family: inherit;
@@ -86,4 +86,4 @@ label {
 
 legend {
     display: block;
-}
+} 
