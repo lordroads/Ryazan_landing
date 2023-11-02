@@ -38,6 +38,7 @@ ul, ul li {
 
 img {
     vertical-align: top;
+    loading: lazy;
 } 
 
  img, svg {
