@@ -81,7 +81,7 @@ img, svg {
 
 .nav_item {
     background-color: #F9BF14;
-    min-width: 163px;
+    min-width: 158px;
     min-height: 80px;
     margin: 3.5px 4.5px;
     position: relative;
@@ -113,10 +113,6 @@ img, svg {
 .image_item{
     height: 130px;
     overflow: hidden;
-}
-
-.image_item img {
-    margin: -45px 0px;
 }
 
 .margin_horizontal_img{

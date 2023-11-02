@@ -172,6 +172,13 @@
         margin: 15px 0 30px 87px;
     }
 
+    .content_list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
     .content_item {
         display: inline-block;
     }
@@ -187,6 +194,7 @@
         .content_item:last-child:nth-child(odd) {
             margin: 0;
             width: calc(100% - 20px);
+            max-width: 681px;
             display: inline-block;
         }
 
