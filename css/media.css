@@ -6,18 +6,22 @@
     }
 
     .logo {
-        max-width: 67px;
-        max-height: 118px;
+        max-width: 94px;
+        max-height: 156px;
     }
 
     .logo_contener {
         position: absolute;
         width: auto;
-        height: 186px;
+        height: 200px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 40px;
+        margin-top: 40px;
     }
 
     .dots {
-        margin: 74px 0px 0 521px;
+        margin: 90px 0px 0 1100px;
         width: 86px;
         background-repeat: no-repeat;
         background-image: url("../img/bg_table.png");
@@ -53,20 +57,21 @@
     }
 
     .nav {
-        width: 605px;
+        width: 855px;
+        flex-wrap: nowrap;
     }
 
     .nav_item {
-        min-height: 33px;
-        min-width: auto;
+        max-height: 50px;
+        min-width: 200px;
     }
 
     h1 {
-        font-size: 36px;
+        font-size: 42px;
     }
 
     .title_page {
-        margin: 15px 0 30px 87px;
+        margin: 15px 0 30px 180px;
     }
 
     .content_list {
@@ -82,22 +87,24 @@
 
         .content_item:nth-child(even) {
             margin-left: 5px;
+            width: calc(49% - 20px);
+            
         }
 
         .content_item:nth-child(odd) {
             margin-right: 5px;
+            width: calc(49% - 20px);
         }
 
         .content_item:last-child:nth-child(odd) {
             margin: 0;
-            width: calc(100% - 20px);
-            max-width: 681px;
+            width: calc(70% - 20px);
             display: inline-block;
         }
 
     .image_item {
-        width: 335px;
-        height: 250px;
+        width: 100%;
+        height: 80%;
     }
 
     .margin_horizontal_img {
