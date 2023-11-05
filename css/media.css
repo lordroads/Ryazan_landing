@@ -17,11 +17,11 @@
         display: flex;
         justify-content: space-between;
         margin-left: 40px;
-        margin-top: 40px;
+        margin-top: 100px;
     }
 
     .dots {
-        margin: 90px 0px 0 1100px;
+        margin: 90px 0px 0 540px;
         width: 86px;
         background-repeat: no-repeat;
         background-image: url("../img/bg_table.png");
@@ -53,7 +53,7 @@
 
     .teble_flex_end {
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
     }
 
     .nav {
@@ -71,7 +71,7 @@
     }
 
     .title_page {
-        margin: 15px 0 30px 180px;
+        margin: 90px 0 30px 180px;
     }
 
     .content_list {
